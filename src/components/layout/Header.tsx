@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import UserMenu from "./UserMenu";
 
 const navItems = [
   { label: "Home", path: "/" },
@@ -50,6 +51,7 @@ const Header = () => {
             <Phone className="h-4 w-4" />
             06 535 0588
           </a>
+          <UserMenu />
           <Button variant="gold" size="sm" asChild>
             <Link to="/contact">Get a Quote</Link>
           </Button>
