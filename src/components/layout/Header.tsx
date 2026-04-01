@@ -51,6 +51,7 @@ const Header = () => {
             <Phone className="h-4 w-4" />
             06 535 0588
           </a>
+          <UserMenu />
           <Button variant="gold" size="sm" asChild>
             <Link to="/contact">Get a Quote</Link>
           </Button>
